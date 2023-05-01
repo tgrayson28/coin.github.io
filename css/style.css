@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+	
+	
+} 
+html, body{
+	background-color: blue;
+	background-size: cover;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 200px;
+}
+.header{
+	top: 0px;
+	padding-top: 10px;
+}
+
+.header h1{
+	color: white;
+	font-size: 40px;
+	text-align: center;
+
+}
+.container{
+		min-height: 100%;
+		width: 100%;
+		background-color: blue;
+		background-size: cover;
+		background-position: center;
+		position: relative;
+}
+	
+.navbar{
+	width: 95%;
+	margin: auto;
+	padding: 15px 0;
+	display: flex;
+	justify-content: space-between;
+
+}
+.navbar li{
+	float: left;
+}
+
+.logo{
+	width: 50px;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 15px;
+}
+.navbar ul li a{
+		text-decoration: none;
+		color: #ffffff;
+		font-size: 20px;
+		
+}
+.content{
+	display: flex;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+	margin: auto;
+	padding: 120px 1rem;
+	
+}
+.coincontent h1{
+	color: white;
+	font-size: 40px;
+	font-family: verdana;
+	margin-top: -70px;
+	text-align: center;
+
+}	
+.coincontent h2{
+	color: white;
+	font-size: 30px;
+	font-family: verdana;
+	margin-top: 20px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+.coincontent h3{
+	color: white;
+	font-size: 30px;
+	font-family: verdana;
+	margin-top: -80px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+.content p{
+	color: white;
+	font-size: 20px;
+	font-family: verdana;
+	text-align: center;	
+	padding-top: 7px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+
+
+}
+
+.citations{
+	top: -30px;
+	font-family: verdana;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	display: block;
+	padding-top: 5px;
+}
+
+
+#grouppic{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	height: 600px;
+	padding-top: 40px;
+	padding-bottom: 0px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#albumcover{
+	padding: 50px;
+}
+#albumcover2{
+	padding: 50px;
+}
+#albumcover3{
+	padding: 50px;
+} 
+
+#newspic{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%
+	height: 600px;
+	padding-top: 70px;
+	padding-bottom: 0px;
+	padding-left: 40px;
+	padding-right: 40px;
+
+}
+figure{
+	text-align: center;
+}
+.footer{
+	background-color: blue;
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	bottom: 0;
+	z-index: -1;
+}
